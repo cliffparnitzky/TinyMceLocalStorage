@@ -56,7 +56,8 @@ function(ed)
 		localStorage.setItem(storeKey, ed.getContent({format:'html'}));
 	});
 	ed.onInit.add(function(ed) {
-		storeKey = document.URL.replace(/&rt=[^&]+&?/, '').replace(/^.*\?/, '').replace(/fee=1/, '').replace(/[=&]/g, '-');
+		storeKey = document.URL.replace(/&ref=/, '').replace(/&ref=/, '').replace(/&rt=[^&]+&?/, '').replace(/^.*\?/, '').replace(/fee=1/, '').replace(/[=&]/g, '-');
+		/* TODO if there is '&pid=...' in the url, remove the '&id=...' */
 		storedContent = localStorage.getItem(storeKey);
 		if (storedContent !== null && storedContent != '') {
 			/* TODO get current text and remove [nbsp] */
