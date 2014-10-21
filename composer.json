@@ -1,0 +1,35 @@
+{
+	"name":"cliffparnitzky/tiny-mce-local-storage",
+	"description":"Special TinyMCE plugin for temporarily storing texts in the local storage of the browser and restoring them (e.g. after unnoticed logout, when session timed out).",
+	"keywords":["contao","tinymce","tiny editor","tinymce plugin","auto link"],
+	"type":"contao-module",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Cliff Parnitzky",
+			"email":"contao@cliff-parnitzky.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"contao@cliff-parnitzky.de",
+		"issues":"https://github.com/cliffparnitzky/TinyMceLocalStorage/issues",
+		"source":"https://github.com/cliffparnitzky/TinyMceLocalStorage"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=2.9.5,<3.3.0",
+		"contao-community-alliance/composer-installer":"*",
+		"cliffparnitzky/tiny-mce-plugin-loader":">=1.0.0,<2.0.x-dev"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"system/modules/TinyMceLocalStorage":"system/modules/TinyMceLocalStorage"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
