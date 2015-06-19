@@ -1,7 +1,7 @@
 {
 	"name":"cliffparnitzky/tiny-mce-local-storage",
 	"description":"Special TinyMCE plugin for temporarily storing texts in the local storage of the browser and restoring them (e.g. after unnoticed logout, when session timed out).",
-	"keywords":["contao","tinymce","tiny editor","tinymce plugin","auto link"],
+	"keywords":["contao","tinymce","tiny editor","tinymce plugin","auto link","tinymce4"],
 	"type":"contao-module",
 	"license":"LGPL-3.0+",
 	"authors":[

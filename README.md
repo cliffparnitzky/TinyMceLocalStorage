@@ -35,4 +35,4 @@ Dependency
 Screenshot
 ----------
 
-![Screenshot](https://raw.github.com/cliffparnitzky/TinyMceLocalStorage/master/screenshot.jpg)
+![Screenshot](screenshot.jpg)
